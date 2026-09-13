@@ -19,6 +19,6 @@ julia> make_fig4b()               # I*-mu1 phase diagram
 julia> make_fig5d()               # bifurcation divergence 
 ```
 
-Fig. 5(d): couldn't get this one to work. The figure graphs how long the card lingers near the edge-on fixed point before tipping into flutter/tumble, which should blow up as I* → I*_c. Instead it plateaus
+Fig. 5(d) does not currently work. The figure graphs how long the card lingers near the edge-on fixed point before tipping into flutter/tumble, which should blow up as I* → I*_c. Instead it plateaus
 
-My guess: I'm only measuring escape from the first fixed point, whose escape rate barely depends on I*. The divergence probably comes from how closely the trajectory passes the second fixed point, which I've not implemented.
+I'm pretty sure this is because I'm only measuring escape from the first fixed point, whose escape rate barely depends on I*. The divergence comes from how closely the trajectory passes the second fixed point, which I've not yet implemented.
